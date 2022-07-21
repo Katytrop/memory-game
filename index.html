@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="#">
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Memory Game</title>
+</head>
+<body>
+   <div class="container">
+        <div class="name">Memory Game</div>
+        <div class="content-wrapper">
+            <div class="moves-wrapper">
+                <div class="text-moves">Moves:&nbsp;</div>
+                <div class="moves">0</div>
+            </div>
+            <div class="time-wrapper">
+                <div class="time">00:00</div>
+            </div>
+            <div class="match-cards-wrapper">
+                <div class="text-match">Match:&nbsp;</div>
+                <div class="match">0&nbsp;</div>
+                <div class="text-match2">/ 10</div>
+            </div>
+
+        </div>
+
+        <div class="memory-game">
+           <div class="memory-card" data-animals="bear">
+               <img src="assets/img/bear.png" alt="" class="front">
+               <img src="assets/img/cover.png" alt="" class="back"></div>
+           <div class="memory-card" data-animals="bear">
+               <img src="assets/img/bear.png" alt="" class="front">
+               <img src="assets/img/cover.png" alt="" class="back"></div>
+           <div class="memory-card" data-animals="elefant">
+               <img src="assets/img/elefant.png" alt="" class="front">
+               <img src="assets/img/cover.png" alt="" class="back"></div>
+           <div class="memory-card" data-animals="elefant">
+               <img src="assets/img/elefant.png" alt="" class="front">
+               <img src="assets/img/cover.png" alt="" class="back"></div>
+           <div class="memory-card" data-animals="monkey">
+               <img src="assets/img/monkey.png" alt="" class="front">
+               <img src="assets/img/cover.png" alt="" class="back"></div>
+           <div class="memory-card" data-animals="monkey">
+               <img src="assets/img/monkey.png" alt="" class="front">
+               <img src="assets/img/cover.png" alt="" class="back"></div>
+           <div class="memory-card" data-animals="lion">
+               <img src="assets/img/lion.png" alt="" class="front">
+               <img src="assets/img/cover.png" alt="" class="back"></div>
+           <div class="memory-card" data-animals="lion">
+               <img src="assets/img/lion.png" alt="" class="front">
+               <img src="assets/img/cover.png" alt="" class="back"></div>
+           <div class="memory-card" data-animals="panda">
+               <img src="assets/img/panda.png" alt="" class="front">
+               <img src="assets/img/cover.png" alt="" class="back"></div>
+           <div class="memory-card" data-animals="panda">
+               <img src="assets/img/panda.png" alt="" class="front">
+               <img src="assets/img/cover.png" alt="" class="back"></div>
+           <div class="memory-card" data-animals="volf">
+               <img src="assets/img/volf.png" alt="" class="front">
+               <img src="assets/img/cover.png" alt="" class="back"></div>
+           <div class="memory-card" data-animals="volf">
+               <img src="assets/img/volf.png" alt="" class="front">
+               <img src="assets/img/cover.png" alt="" class="back"></div>           
+            <div class="memory-card" data-animals="shark">
+                <img src="assets/img/shark.png" alt="" class="front">
+                <img src="assets/img/cover.png" alt="" class="back"></div>
+            <div class="memory-card" data-animals="shark">
+                <img src="assets/img/shark.png" alt="" class="front">
+                <img src="assets/img/cover.png" alt="" class="back"></div>
+            <div class="memory-card" data-animals="eagle">
+                <img src="assets/img/eagle.png" alt="" class="front">
+                <img src="assets/img/cover.png" alt="" class="back"></div>
+            <div class="memory-card" data-animals="eagle">
+                <img src="assets/img/eagle.png" alt="" class="front">
+                <img src="assets/img/cover.png" alt="" class="back"></div>
+            <div class="memory-card" data-animals="turtle">
+                <img src="assets/img/turtle.png" alt="" class="front">
+                <img src="assets/img/cover.png" alt="" class="back"></div>
+            <div class="memory-card" data-animals="turtle">
+                <img src="assets/img/turtle.png" alt="" class="front">
+                <img src="assets/img/cover.png" alt="" class="back"></div>
+            <div class="memory-card" data-animals="owl">
+                <img src="assets/img/owl.png" alt="" class="front">
+                <img src="assets/img/cover.png" alt="" class="back"></div>
+            <div class="memory-card" data-animals="owl">
+                <img src="assets/img/owl.png" alt="" class="front">
+                <img src="assets/img/cover.png" alt="" class="back"></div>
+        </div>
+
+        <div class="start-game">
+            <div class="start-content">
+                <div class="text-start">Let`s start the game</div>
+                <button class="start">Start</button>
+            </div>          
+        </div>
+
+        <div class="ending hidden">
+            <div class="ending-content">
+                <div class="text-ending">Congratulations!</div>
+                <div class="total-time"></div>
+                <div class="total-moves"></div>
+                <div class="result-block"></div>
+                <button class="again">Play again</button>
+            </div>
+        </div>
+
+        <div class="footer">
+        <div class="footer-content">               
+            <div class="footer-itm"> 
+                <a href="https://github.com/Katytrop">
+                <img class= "logo-git" src="assets/icons/github.svg" alt="github-logo">
+                </a>
+            </div>
+            <div class="data"> &copy; by Katytrop 2022</div>
+            <div class="footer-itm"> 
+                <a href="https://rs.school/js/">
+                <img class= "logo-rss" src="assets/icons/rs_school.svg" alt="rs-logo">
+                </a>
+            </div>
+        </div>       
+        </div> 
+   </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
